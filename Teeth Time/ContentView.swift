@@ -14,6 +14,9 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
+            Text("\(vm.surfaceTimer.time)")
+                .font(.system(size: 70, weight: .medium, design: .rounded))
+            
             Text("\(vm.twoMinuteTimer.time)")
                 .font(.system(size: 70, weight: .medium, design: .rounded))
             
