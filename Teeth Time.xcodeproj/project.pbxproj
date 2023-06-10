@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADCF59992A34BD1000F19F1E /* Teeth_TimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCF59982A34BD1000F19F1E /* Teeth_TimeApp.swift */; };
+		ADCF599B2A34BD1000F19F1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCF599A2A34BD1000F19F1E /* ContentView.swift */; };
+		ADCF599D2A34BD1100F19F1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADCF599C2A34BD1100F19F1E /* Assets.xcassets */; };
+		ADCF59A02A34BD1100F19F1E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADCF599F2A34BD1100F19F1E /* Preview Assets.xcassets */; };
+		ADCF59AA2A34BD1200F19F1E /* Teeth_TimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCF59A92A34BD1200F19F1E /* Teeth_TimeTests.swift */; };
+		ADCF59B42A34BD1200F19F1E /* Teeth_TimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCF59B32A34BD1200F19F1E /* Teeth_TimeUITests.swift */; };
+		ADCF59B62A34BD1200F19F1E /* Teeth_TimeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCF59B52A34BD1200F19F1E /* Teeth_TimeUITestsLaunchTests.swift */; };
+		ADCF59C32A34BD9800F19F1E /* Content-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCF59C22A34BD9800F19F1E /* Content-ViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADCF59A62A34BD1200F19F1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADCF598D2A34BD1000F19F1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADCF59942A34BD1000F19F1E;
+			remoteInfo = "Teeth Time";
+		};
+		ADCF59B02A34BD1200F19F1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADCF598D2A34BD1000F19F1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADCF59942A34BD1000F19F1E;
+			remoteInfo = "Teeth Time";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADCF59952A34BD1000F19F1E /* Teeth Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Teeth Time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADCF59982A34BD1000F19F1E /* Teeth_TimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teeth_TimeApp.swift; sourceTree = "<group>"; };
+		ADCF599A2A34BD1000F19F1E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ADCF599C2A34BD1100F19F1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADCF599F2A34BD1100F19F1E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ADCF59A52A34BD1200F19F1E /* Teeth TimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Teeth TimeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADCF59A92A34BD1200F19F1E /* Teeth_TimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teeth_TimeTests.swift; sourceTree = "<group>"; };
+		ADCF59AF2A34BD1200F19F1E /* Teeth TimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Teeth TimeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADCF59B32A34BD1200F19F1E /* Teeth_TimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teeth_TimeUITests.swift; sourceTree = "<group>"; };
+		ADCF59B52A34BD1200F19F1E /* Teeth_TimeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teeth_TimeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ADCF59C22A34BD9800F19F1E /* Content-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Content-ViewModel.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADCF59922A34BD1000F19F1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADCF59A22A34BD1200F19F1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADCF59AC2A34BD1200F19F1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADCF598C2A34BD1000F19F1E = {
+			isa = PBXGroup;
+			children = (
+				ADCF59972A34BD1000F19F1E /* Teeth Time */,
+				ADCF59A82A34BD1200F19F1E /* Teeth TimeTests */,
+				ADCF59B22A34BD1200F19F1E /* Teeth TimeUITests */,
+				ADCF59962A34BD1000F19F1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADCF59962A34BD1000F19F1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADCF59952A34BD1000F19F1E /* Teeth Time.app */,
+				ADCF59A52A34BD1200F19F1E /* Teeth TimeTests.xctest */,
+				ADCF59AF2A34BD1200F19F1E /* Teeth TimeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADCF59972A34BD1000F19F1E /* Teeth Time */ = {
+			isa = PBXGroup;
+			children = (
+				ADCF59982A34BD1000F19F1E /* Teeth_TimeApp.swift */,
+				ADCF599A2A34BD1000F19F1E /* ContentView.swift */,
+				ADCF599C2A34BD1100F19F1E /* Assets.xcassets */,
+				ADCF599E2A34BD1100F19F1E /* Preview Content */,
+				ADCF59C22A34BD9800F19F1E /* Content-ViewModel.swift */,
+			);
+			path = "Teeth Time";
+			sourceTree = "<group>";
+		};
+		ADCF599E2A34BD1100F19F1E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ADCF599F2A34BD1100F19F1E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ADCF59A82A34BD1200F19F1E /* Teeth TimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADCF59A92A34BD1200F19F1E /* Teeth_TimeTests.swift */,
+			);
+			path = "Teeth TimeTests";
+			sourceTree = "<group>";
+		};
+		ADCF59B22A34BD1200F19F1E /* Teeth TimeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ADCF59B32A34BD1200F19F1E /* Teeth_TimeUITests.swift */,
+				ADCF59B52A34BD1200F19F1E /* Teeth_TimeUITestsLaunchTests.swift */,
+			);
+			path = "Teeth TimeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADCF59942A34BD1000F19F1E /* Teeth Time */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADCF59B92A34BD1200F19F1E /* Build configuration list for PBXNativeTarget "Teeth Time" */;
+			buildPhases = (
+				ADCF59912A34BD1000F19F1E /* Sources */,
+				ADCF59922A34BD1000F19F1E /* Frameworks */,
+				ADCF59932A34BD1000F19F1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Teeth Time";
+			productName = "Teeth Time";
+			productReference = ADCF59952A34BD1000F19F1E /* Teeth Time.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADCF59A42A34BD1200F19F1E /* Teeth TimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADCF59BC2A34BD1200F19F1E /* Build configuration list for PBXNativeTarget "Teeth TimeTests" */;
+			buildPhases = (
+				ADCF59A12A34BD1200F19F1E /* Sources */,
+				ADCF59A22A34BD1200F19F1E /* Frameworks */,
+				ADCF59A32A34BD1200F19F1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADCF59A72A34BD1200F19F1E /* PBXTargetDependency */,
+			);
+			name = "Teeth TimeTests";
+			productName = "Teeth TimeTests";
+			productReference = ADCF59A52A34BD1200F19F1E /* Teeth TimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ADCF59AE2A34BD1200F19F1E /* Teeth TimeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADCF59BF2A34BD1200F19F1E /* Build configuration list for PBXNativeTarget "Teeth TimeUITests" */;
+			buildPhases = (
+				ADCF59AB2A34BD1200F19F1E /* Sources */,
+				ADCF59AC2A34BD1200F19F1E /* Frameworks */,
+				ADCF59AD2A34BD1200F19F1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADCF59B12A34BD1200F19F1E /* PBXTargetDependency */,
+			);
+			name = "Teeth TimeUITests";
+			productName = "Teeth TimeUITests";
+			productReference = ADCF59AF2A34BD1200F19F1E /* Teeth TimeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADCF598D2A34BD1000F19F1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					ADCF59942A34BD1000F19F1E = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					ADCF59A42A34BD1200F19F1E = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = ADCF59942A34BD1000F19F1E;
+					};
+					ADCF59AE2A34BD1200F19F1E = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = ADCF59942A34BD1000F19F1E;
+					};
+				};
+			};
+			buildConfigurationList = ADCF59902A34BD1000F19F1E /* Build configuration list for PBXProject "Teeth Time" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADCF598C2A34BD1000F19F1E;
+			productRefGroup = ADCF59962A34BD1000F19F1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADCF59942A34BD1000F19F1E /* Teeth Time */,
+				ADCF59A42A34BD1200F19F1E /* Teeth TimeTests */,
+				ADCF59AE2A34BD1200F19F1E /* Teeth TimeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADCF59932A34BD1000F19F1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADCF59A02A34BD1100F19F1E /* Preview Assets.xcassets in Resources */,
+				ADCF599D2A34BD1100F19F1E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADCF59A32A34BD1200F19F1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADCF59AD2A34BD1200F19F1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADCF59912A34BD1000F19F1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADCF599B2A34BD1000F19F1E /* ContentView.swift in Sources */,
+				ADCF59992A34BD1000F19F1E /* Teeth_TimeApp.swift in Sources */,
+				ADCF59C32A34BD9800F19F1E /* Content-ViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADCF59A12A34BD1200F19F1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADCF59AA2A34BD1200F19F1E /* Teeth_TimeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADCF59AB2A34BD1200F19F1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADCF59B62A34BD1200F19F1E /* Teeth_TimeUITestsLaunchTests.swift in Sources */,
+				ADCF59B42A34BD1200F19F1E /* Teeth_TimeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADCF59A72A34BD1200F19F1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADCF59942A34BD1000F19F1E /* Teeth Time */;
+			targetProxy = ADCF59A62A34BD1200F19F1E /* PBXContainerItemProxy */;
+		};
+		ADCF59B12A34BD1200F19F1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADCF59942A34BD1000F19F1E /* Teeth Time */;
+			targetProxy = ADCF59B02A34BD1200F19F1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ADCF59B72A34BD1200F19F1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADCF59B82A34BD1200F19F1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADCF59BA2A34BD1200F19F1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Teeth Time/Preview Content\"";
+				DEVELOPMENT_TEAM = 2LW5S6ZH86;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jsorhannus.Teeth-Time";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADCF59BB2A34BD1200F19F1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Teeth Time/Preview Content\"";
+				DEVELOPMENT_TEAM = 2LW5S6ZH86;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jsorhannus.Teeth-Time";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ADCF59BD2A34BD1200F19F1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2LW5S6ZH86;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jsorhannus.Teeth-TimeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Teeth Time.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Teeth Time";
+			};
+			name = Debug;
+		};
+		ADCF59BE2A34BD1200F19F1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2LW5S6ZH86;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jsorhannus.Teeth-TimeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Teeth Time.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Teeth Time";
+			};
+			name = Release;
+		};
+		ADCF59C02A34BD1200F19F1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2LW5S6ZH86;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jsorhannus.Teeth-TimeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Teeth Time";
+			};
+			name = Debug;
+		};
+		ADCF59C12A34BD1200F19F1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2LW5S6ZH86;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jsorhannus.Teeth-TimeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Teeth Time";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADCF59902A34BD1000F19F1E /* Build configuration list for PBXProject "Teeth Time" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADCF59B72A34BD1200F19F1E /* Debug */,
+				ADCF59B82A34BD1200F19F1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADCF59B92A34BD1200F19F1E /* Build configuration list for PBXNativeTarget "Teeth Time" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADCF59BA2A34BD1200F19F1E /* Debug */,
+				ADCF59BB2A34BD1200F19F1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADCF59BC2A34BD1200F19F1E /* Build configuration list for PBXNativeTarget "Teeth TimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADCF59BD2A34BD1200F19F1E /* Debug */,
+				ADCF59BE2A34BD1200F19F1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADCF59BF2A34BD1200F19F1E /* Build configuration list for PBXNativeTarget "Teeth TimeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADCF59C02A34BD1200F19F1E /* Debug */,
+				ADCF59C12A34BD1200F19F1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADCF598D2A34BD1000F19F1E /* Project object */;
+}
