@@ -14,12 +14,12 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            Text("\(vm.time)")
+            Text("\(vm.twoMinuteTimer.time)")
                 .font(.system(size: 70, weight: .medium, design: .rounded))
             
             HStack(spacing: 50) {
                 Button("Start") {
-                    vm.start(minutes: vm.minutes)
+                    vm.start()
                 }
                 .disabled(vm.isActive)
             }
