@@ -14,9 +14,11 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            SurfaceTimerView(surfaceTimer: vm.surfaceTimer)
+            Text("\(vm.surfaceTimeRemaining)")
+                .font(.system(size: 70, weight: .medium, design: .rounded))
             
-            TwoMinuteTimer(twoMinuteTimer: vm.twoMinuteTimer)
+            Text("\(vm.time)")
+                .font(.system(size: 70, weight: .medium, design: .rounded))
             
             HStack(spacing: 50) {
                 Button("Start") {
@@ -29,24 +31,6 @@ struct ContentView: View {
             vm.updateCountdown()
         }
         .padding()
-    }
-}
-
-struct SurfaceTimerView: View {
-    @ObservedObject var surfaceTimer : TimerModel
-    
-    var body: some View {
-        Text("\(surfaceTimer.time)")
-            .font(.system(size: 70, weight: .medium, design: .rounded))
-    }
-}
-
-struct TwoMinuteTimer: View {
-    @ObservedObject var twoMinuteTimer : TimerModel
-    
-    var body: some View {
-        Text("\(twoMinuteTimer.time)")
-            .font(.system(size: 70, weight: .medium, design: .rounded))
     }
 }
 
